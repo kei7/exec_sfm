@@ -1,0 +1,4 @@
+*.log
+*.dmap
+undistorted_images
+dat
