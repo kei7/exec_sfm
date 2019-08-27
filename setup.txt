@@ -1,0 +1,12 @@
+MVGBUILDMAIN="/home/repos/openMVG_build"
+MVSBUILDMAIN="/home/repos/openMVS_build/bin"
+MVGEXEC="software/SfM"
+MVGRELEASE="Linux-x86_64-RELEASE"
+MAKEMODEL_NAME="exec_model"
+IMGDIRPATH="/mnt/Omer/Project/04.ExTRaMapping/ModelData/Data/"
+IMGOUTPATH="/mnt/Omer/Project/04.ExTRaMapping/ModelData/ReconstructResult"
+
+IMGDIRNAME="20190821-2"
+TYPE="Experiment"
+DATE="20190827"
+SHOTDATE="20190821"
