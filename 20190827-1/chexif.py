@@ -48,7 +48,7 @@ if __name__=="__main__":
         #data["Exif.Image.Software"] = meta1["Exif.Image.Software"].value
         #data["Exif.Image.YCbCrPositioning"] = meta1["Exif.Image.YCbCrPositioning"].value
         #data["Exif.Photo.FNumber"] = meta1["Exif.Photo.FNumber"].value
-        #data["Exif.Photo.FocalLength"] = meta1["Exif.Photo.FocalLength"].value
+        data["Exif.Photo.FocalLength"] = meta1["Exif.Photo.FocalLength"].value
         data["Exif.Photo.PixelXDimension"] = 1024#meta1["Exif.Photo.PixelXDimension"]
         data["Exif.Photo.PixelYDimension"] = 1024#meta1["Exif.Photo.PixelYDimension"]
         #data["Exif.Photo.DigitalZoomRatio"] = meta1["Exif.Photo.DigitalZoomRatio"].value
