@@ -19,13 +19,13 @@ mv ./${MAKEMODEL_NAME}.py ${MVGBUILDMAIN}/${MVGEXEC}/
 cp -r ${IMGDIRPATH}/${TYPE}/3dmorph/${SHOTDATE}/morph/${IMGDIRNAME} ${MVGBUILDMAIN}/${MVGEXEC}/input/
 
 #high speed camera image copy
-cp ${IMGDIRPATH}/${TYPE}/optical/${SHOTDATE}/pose/*.jpg ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/images
+cp ${IMGDIRPATH}/${TYPE}/optical/${SHOTDATE}/${PATH_OPTDATA}/*.jpg ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/images
 
 #camera image sensor width copy
 cp -i ./sensor_width_camera_database.txt /home/repos/openMVG/src/openMVG/exif/sensor_width_database/
 
 #change exif
-python ./chexif.py
+python ./chexif.py ${IMGREFPATH}
 
 cp -r ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME} ${MVSBUILDMAIN}/undistorted_images/
 
