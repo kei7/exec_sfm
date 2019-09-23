@@ -4,7 +4,7 @@ import os,sys
 
 #SRC_DIR = "/mnt/Omer/Project/04.ExTRaMapping/ModelData/Data/1990522-1/"
 #OUT_DIR = "/mnt/Omer/Project/04.ExTRaMapping/ModelData/Data/1990522-1/"
-TARGET_DIR = "/home/repos/openMVG_build/software/SfM/input/{0}/images".format("20190821-2")
+TARGET_DIR = "/home/repos/openMVG_build/software/SfM/input/{0}/images".format(sys.argv[2])
 #REFDIR = "/mnt/Omer/Project/13.3DReconstruct/Data/Test/3dmorph/20190821/dat"
 REFDIR = "{0}/Test/3dmorph/20190821/dat".format(sys.argv[1])
 if __name__=="__main__":

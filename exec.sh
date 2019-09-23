@@ -25,7 +25,7 @@ cp ${IMGDIRPATH}/${TYPE}/optical/${SHOTDATE}/${PATH_OPTDATA}/*.jpg ${MVGBUILDMAI
 cp -i ./sensor_width_camera_database.txt /home/repos/openMVG/src/openMVG/exif/sensor_width_database/
 
 #change exif
-python ./chexif.py ${IMGREFPATH}
+python ./chexif.py ${IMGREFPATH} ${IMGDIRNAME}
 
 cp -r ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME} ${MVSBUILDMAIN}/undistorted_images/
 
