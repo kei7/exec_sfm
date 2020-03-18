@@ -54,7 +54,7 @@ fi
 #mesh reconstruction
 #${MVSBUILDMAIN}/ReconstructMesh ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/out/reconstruction_sequential/scene_dense.mvs
 #texturemesh
-/home/repos/openMVS_build/bin/TextureMesh ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/out/reconstruction_sequential/scene_dense_mesh.mvs --mesh-file ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/out/reconstruction_sequential/scene_dense_mesh.ply
+${MVSBUILDMAIN}/TextureMesh ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/out/reconstruction_sequential/scene_dense_mesh.mvs --mesh-file ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/out/reconstruction_sequential/scene_dense_mesh.ply
 #copy output
 #mkdir -p ${IMGOUTPATH}/${TYPE}/${SHOTDATE}/${DATE}/${IMGDIRNAME}
 #cp -r ${MVGBUILDMAIN}/${MVGEXEC}/input/${IMGDIRNAME}/out/* ${IMGOUTPATH}/${TYPE}/${SHOTDATE}/${DATE}/${IMGDIRNAME}
